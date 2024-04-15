@@ -1,9 +1,12 @@
-export interface User {
-    username: string; 
-    password: string; 
-    email: string;
-    profilePicture?: string | null; 
-    createdAt: Date; 
-  }
 
+
+export interface User {
+
+  username: string;
+  password: string;
+  email: string;
+  profileImage?: string; 
+  createdAt?: Date; 
+  updatedAt?: Date; 
   
+}

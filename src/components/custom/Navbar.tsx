@@ -35,9 +35,9 @@ export const Navbar = () => {
         </h1>
       </div>
       <div className="">
-        <div className="relative flex">
-          <Input type="search" placeholder="Search" className="w-full pr-10" />
-          <Search color="gray" size={24} className="absolute right-2 top-2" />
+        <div className="relative flex ">
+          <Input type="search" placeholder="Search" className="w-full pr-10 bg-transparent" />
+          <Search color="gray" size={24} className="absolute right-2 top-2 " />
         </div>
       </div>
 

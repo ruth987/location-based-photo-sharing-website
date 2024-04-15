@@ -16,10 +16,10 @@ import { Switch } from "@/components/ui/switch"
 
 type CardProps = React.ComponentProps<typeof Card>
 
-export function Register({ className, ...props }: CardProps) {
+export default function Register({ className, ...props }: CardProps) {
   return (
-    <div className="w-full  h-screen">
-        <Card className={cn("w-[380px] mx-auto my-20", className)} {...props}>
+    <div className="w-full  h-screen py-20">
+        <Card className={cn("w-[380px] mx-auto ", className)} {...props}>
       <CardHeader>
         <CardTitle>Register</CardTitle>
         <CardDescription>Welcome, share memories with trie!</CardDescription>
